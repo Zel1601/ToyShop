@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Admin</title>
+    <link href="~/Content/loginstyle.css" rel="stylesheet" />
+</head>
+<body class="login">
+    <h1><a class="logo" href="#">
+    <img width="300" src="~/Images/logo.png" />
+    </a></h1>
+    <h1 class="center">Đăng nhập Tài Khoản Quản Trị</h1>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+
+        <div>
+            <input type="text" class="form-control" name="username" id="login_username" placeholder="Nhập tên tài khoản:">
+            @ViewData["Lỗi1 "];
+        </div>
+        
+        <div>
+           <input type="text" class="form-control" name="password" id="login_password" placeholder="Nhập mật khẩu:" >
+            @ViewData["Lỗi2 "]
+        </div>
+       
+        <button type="submit" name="login">Đăng nhập</button>
+    }
+
+
+
+</body>
+</html>

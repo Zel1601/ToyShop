@@ -1,0 +1,339 @@
+﻿@using ToyShop.Models
+@helper Truncate(string input, int lenght)
+{
+    if (input.Length < lenght)
+    {
+        @input
+    }
+    else
+    {
+        @input.Substring(0, lenght)<text>...</text>
+    }
+}
+@{
+    ViewBag.Title = "Trang Chủ";
+}
+
+<!-- Categories Section Begin -->
+<!--giai quyet xong-->
+<section class="categories">
+    <div class="container">
+        <div class="row">
+            <div class="categories__slider owl-carousel">
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg">
+
+                        <h5>
+                            <img src="~/Images/Slide/card.jpg" />
+                            <a href="~/Home/SPTheoCategory/4">Thẻ Bài</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg">
+                        <h5>
+                            <img src="~/Images/Slide/doll.jpg" />
+                            <a href="~/Home/SPTheoCategory/2">Búp Bê</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg">
+                        <h5>
+                            <img src="~/Images/Slide/model.jpg" />
+                            <a href="~/Home/SPTheoCategory/1">Mô Hình</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg">
+                        <h5>
+                            <img src="~/Images/Slide/puzzles.jpg" />
+                            <a href="~/Home/SPTheoCategory/3">Trí Tuệ</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg">
+                        <h5>
+                            <img src="~/Images/Slide/robot.jpg" />
+                            <a href="~/Home/SPTheoCategory/5">Robot</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="categories__item set-bg">
+                        <h5>
+                            <img src="~/Images/Slide/car.jpg" />
+                            <a href="~/Home/SPTheoCategory/6">Xe Điều Khiển</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Categories Section End -->
+<!-- Featured Section Begin -->
+<!--Giai quyet xong-->
+<section class="featured spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Featured Product</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row featured__filter">
+            @{
+                int n = 0;
+                foreach (Product j in Original.laySanPham())
+                {
+                    <div class="col-lg-3 col-md-4 col-sm-6 ">
+                        <div class="featured__item">
+                            <div class="featured__item__pic set-bg">
+                                <img src="@j.ProImage" alt="@j.ProName" />
+                                <ul class="featured__item__pic__hover">
+                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="featured__item__text">
+                                <h6><a href='@Url.Action("Index","ProductDetails",new {masanpham = j.ProId})'>@j.ProName</a></h6>
+                                <h5>@j.ProPrice đồng</h5>
+                            </div>
+                        </div>
+                    </div>
+                    if (n++ >= 7)
+                    {
+                        break;
+                    }
+
+                }
+
+
+            }
+
+        </div>
+    </div>
+</section>
+<!-- Featured Section End -->
+<!-- Banner Begin -->
+<!--Giai Quyet Xong-->
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="banner__pic">
+                    <img src="~/Images/Banner/bn1.jpg" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="banner__pic">
+                    <img src="~/Images/Banner/bn2.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner End -->
+<!-- Latest Product Section Begin -->
+<section class="latest-product spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="latest-product__text">
+                    <h4>Latest Products</h4>
+                    <div class="latest-product__slider owl-carousel">
+                        <div class="latest-prdouct__slider__item">
+                            @{ int a = 0;
+                                foreach (var i in Original.laysanphammoinhat())
+                                {
+                                    <a href="@Url.Action("Index","ProductDetails",new {masanpham = i.ProId})" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="@i.ProImage" alt="@i.ProName">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>@i.ProName</h6>
+                                            <span>@i.ProPrice</span>
+                                        </div>
+                                    </a>
+                                    if (a++ >= 2)
+                                    {
+                                        break;
+                                    }
+                                }
+                            }
+                        </div>
+                        <div class="latest-prdouct__slider__item">
+                            @{int s = 0;
+                                foreach (var u in Original.laysanphammoinhat().OrderByDescending(m => m.ProId < 21))
+                                {
+                                    <a href="@Url.Action("Index","ProductDetails",new {masanpham = u.ProId})" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="@u.ProImage" alt="@u.ProName">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>@u.ProName</h6>
+                                            <span>@u.ProPrice đồng</span>
+                                        </div>
+                                    </a>
+                                    if (s++ >= 2)
+                                    {
+                                        break;
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="latest-product__text">
+                    <h4>Top Rated Products</h4>
+                    <div class="latest-product__slider owl-carousel">
+                        <div class="latest-prdouct__slider__item">
+                            @{int g = 0;
+                                foreach (var y in Original.laysanphamphobien())
+                                {
+
+
+                                    <a href="@Url.Action("Index","ProductDetails",new {masanpham = y.ProId})" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="@y.ProImage" alt="@y.ProName">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>@y.ProName</h6>
+                                            <span>@y.ProPrice đồng</span>
+                                        </div>
+                                    </a>
+                                    if (g++ >= 2)
+                                    {
+                                        break;
+                                    }
+
+                                }
+                            }
+
+                        </div>
+                        <div class="latest-prdouct__slider__item">
+                            @{int f = 0;
+                                foreach (var y in Original.laysanphamphobien().OrderByDescending(m => m.CatId == 2))
+                                {
+
+                                    <a href="@Url.Action("Index","ProductDetails",new {masanpham = y.ProId})" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="@y.ProImage" alt="@y.ProName">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>@y.ProName</h6>
+                                            <span>@y.ProPrice đồng</span>
+                                        </div>
+                                    </a>
+                                    if (f++ >= 2)
+                                    {
+                                        break;
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="latest-product__text">
+                    <h4>Review Products</h4>
+                    <div class="latest-product__slider owl-carousel">
+                        <div class="latest-prdouct__slider__item">
+                            @{ int t = 0;
+                                foreach (var v in Original.laysanphamtheoview().OrderByDescending(m => m.CatId))
+                                {
+                                    <a href="@Url.Action("Index","ProductDetails",new {masanpham = v.ProId})" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="@v.ProImage" alt="@v.ProName">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>@v.ProName</h6>
+                                            <span>@v.ProPrice đ</span>
+                                        </div>
+                                    </a>
+                                    if (t++ >= 2)
+                                    {
+                                        break;
+                                    }
+
+                                }
+                            }
+                        </div>
+                        <div class="latest-prdouct__slider__item">
+                            @{ int z = 0;
+                                foreach (var v in Original.laysanphamtheoview().OrderByDescending(m => m.CatId == 5))
+                                {
+                                    <a href="@Url.Action("Index","ProductDetails",new {masanpham = v.ProId})" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="@v.ProImage" alt="@v.ProName">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>@v.ProName</h6>
+                                            <span>@v.ProPrice đ</span>
+                                        </div>
+                                    </a>
+                                    if (z++ >= 2)
+                                    {
+                                        break;
+                                    }
+
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Latest Product Section End -->
+<!-- Blog Section Begin -->
+<section class="from-blog spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title from-blog__title">
+                    <h2>From The Blog</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @{ int l = 0;
+                foreach (Blog bl in Original.laybaiviet())
+                {
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="blog__item">
+                            <div class="blog__item__pic">
+                                <img src="@bl.BlogImagesDes" alt="@bl.BlogImagesDes" width="500">
+                            </div>
+                            <div class="blog__item__text">
+                                <ul>
+                                    <li><i class="fa fa-calendar-o"></i> @bl.BlogDate</li>
+                                    <li><i class="fa fa-comment-o"></i> 0</li>
+                                </ul>
+                                <h5><a href="@Url.Action("Index","BlogDetails", new {mabaiviet = bl.BlogId})">@bl.BlogName</a></h5>
+                                <p>@Truncate(bl.BlogDes, 100)</p>
+                            </div>
+                        </div>
+                    </div>
+                    if (l++ >= 2)
+                    {
+                        break;
+                    }
+                }
+            }
+
+
+
+        </div>
+    </div>
+</section>
+<!-- Blog Section End -->

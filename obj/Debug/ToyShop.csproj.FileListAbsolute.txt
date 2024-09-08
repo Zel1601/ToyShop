@@ -1,0 +1,174 @@
+D:\Đồ Án Lập Trình Web\ToyShop\bin\ToyShop.dll.config
+D:\Đồ Án Lập Trình Web\ToyShop\bin\ToyShop.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\ToyShop.pdb
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\csc.exe
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\csc.exe.config
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\csc.rsp
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\csi.exe
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\csi.exe.config
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\csi.rsp
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.AppContext.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Collections.Immutable.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Console.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.IO.Compression.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.IO.FileSystem.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Net.Http.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Net.Sockets.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.ValueTuple.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Xml.XPath.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\vbc.exe
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\vbc.exe.config
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\vbc.rsp
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\VBCSCompiler.exe
+D:\Đồ Án Lập Trình Web\ToyShop\bin\roslyn\VBCSCompiler.exe.config
+D:\Đồ Án Lập Trình Web\ToyShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Helpers.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Mvc.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Razor.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Webpages.Deployment.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Webpages.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Webpages.Razor.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Razor.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Webpages.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Webpages.Deployment.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Webpages.Razor.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Helpers.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Mvc.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Đồ Án Lập Trình Web\ToyShop\obj\Debug\ToyShop.csproj.AssemblyReference.cache
+D:\Đồ Án Lập Trình Web\ToyShop\obj\Debug\ToyShop.csproj.CoreCompileInputs.cache
+D:\Đồ Án Lập Trình Web\ToyShop\obj\Debug\ToyShop.csproj.CopyComplete
+D:\Đồ Án Lập Trình Web\ToyShop\obj\Debug\ToyShop.dll
+D:\Đồ Án Lập Trình Web\ToyShop\obj\Debug\ToyShop.pdb
+D:\Đồ Án Lập Trình Web\ToyShop\bin\EntityFramework.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\EntityFramework.SqlServer.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\EntityFramework.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\EntityFramework.SqlServer.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\Antlr3.Runtime.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\Newtonsoft.Json.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Optimization.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\WebGrease.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\Antlr3.Runtime.pdb
+D:\Đồ Án Lập Trình Web\ToyShop\bin\Newtonsoft.Json.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\System.Web.Optimization.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\PagedList.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\PagedList.Mvc.dll
+D:\Đồ Án Lập Trình Web\ToyShop\bin\PagedList.xml
+D:\Đồ Án Lập Trình Web\ToyShop\bin\PagedList.Mvc.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\ToyShop.dll.config
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\ToyShop.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\ToyShop.pdb
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\csc.exe
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\csc.exe.config
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\csc.rsp
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\csi.exe
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\csi.exe.config
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\csi.rsp
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.AppContext.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Collections.Immutable.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Console.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Globalization.Calendars.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.IO.Compression.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.IO.FileSystem.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Net.Http.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Net.Sockets.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Reflection.Metadata.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.ValueTuple.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Xml.XPath.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\vbc.exe
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\vbc.exe.config
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\vbc.rsp
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\VBCSCompiler.exe
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\roslyn\VBCSCompiler.exe.config
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\Antlr3.Runtime.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\EntityFramework.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\EntityFramework.SqlServer.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\Microsoft.Web.Infrastructure.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\Newtonsoft.Json.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\PagedList.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\PagedList.Mvc.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Helpers.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Mvc.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Optimization.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Razor.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Webpages.Deployment.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Webpages.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Webpages.Razor.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\WebGrease.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\Antlr3.Runtime.pdb
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\EntityFramework.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\EntityFramework.SqlServer.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\Newtonsoft.Json.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\PagedList.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\PagedList.Mvc.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Optimization.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Razor.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Webpages.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Webpages.Deployment.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Webpages.Razor.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Helpers.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\System.Web.Mvc.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\obj\Debug\ToyShop.csproj.AssemblyReference.cache
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\obj\Debug\ToyShop.csproj.CoreCompileInputs.cache
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\obj\Debug\ToyShop.csproj.CopyComplete
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\obj\Debug\ToyShop.dll
+D:\ảnh đẹp\LTWEB\LTWEB\ToyShop\ToyShop\obj\Debug\ToyShop.pdb

@@ -1,0 +1,97 @@
+﻿@using ToyShop.Models
+@model List<Carts>
+@{
+    ViewBag.Title = "Thanh Toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@helper Truncate(string input, int lenght)
+{
+    if (input.Length < lenght)
+    {
+        @input
+    }
+    else
+    {
+        @input.Substring(0, lenght)<text>...</text>
+    }
+}
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="Images/banner2.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Checkout</h2>
+                    <div class="breadcrumb__option">
+                        <a href="@Url.Action("Index","Home")">Home</a>
+                        <span>Checkout</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Checkout Section Begin -->
+<section class="checkout spad">
+    <div class="container">
+
+        <div class="checkout__form">
+            <h4>Chi Tiết Khách Hàng</h4>
+            @{
+                NguoiDung main = (NguoiDung)Session["TaiKhoan"];
+            }
+            <form action="#">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        @using (Html.BeginForm())
+                        {
+                            @Html.ValidationSummary(true)
+                            <div class="checkout__input">
+                                <p>Tên<span>*</span></p>
+                                <p>@main.name</p>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Địa Chỉ<span>*</span></p>
+                                <p>@main.address</p>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Số Điện Thoại<span>*</span></p>
+                                <p>@main.phone</p>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Email<span>*</span></p>
+                                <p>@main.email</p>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Ngày Đặt<span>*</span></p>
+                                <p>@DateTime.Now.ToShortDateString()</p>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Ngày Giao<span>*</span></p>
+                                <input type="date" name="NgayGiao" />
+                            </div>
+                            <button type="submit" class="site-btn">PLACE ORDER</button>
+                        }
+
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="checkout__order">
+                            <h4>Đơn Hàng Của Bạn</h4>
+                            <div class="checkout__order__products">Sản Phẩm     <span>Tổng</span></div>
+                            <ul>
+                                @foreach (var item in Model)
+                                {
+                                    <li>@Truncate(item.iproName, 20) <span> @item.iproPrice đồng</span></li>
+                                }
+                            </ul>
+                            <div class="checkout__order__subtotal">Tổng Số Lượng : <span>@ViewBag.SumSoLuong</span></div>
+                            <div class="checkout__order__total">Tổng Giá : <span>@ViewBag.Sum đồng </span></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Checkout Section End -->

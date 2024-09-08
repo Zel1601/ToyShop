@@ -1,0 +1,77 @@
+﻿@using ToyShop.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<ToyShop.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/PrivatePages/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Quản Lý Sản Phẩm</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Index","NewProduct")
+</p>
+<table class="table" border="1">
+    <th style="width:100px">Số Thứ Tự</th>
+    <th style="width:200px">Tên Sản Phẩm</th>
+    <th style="width:100px">Giá</th>
+    <th style="width:120px">Ảnh Bìa</th>
+    <th style="width:100px">Giảm Giá</th>
+    <th style="width:100px">Lượt Xem</th>
+    <th style="width:200px">Chất Liệu</th>
+    <th style="width:200px">Ngày Ship</th>
+    <th style="width:200px">Cân Nặng</th>
+    <th style="width:100px">Thể Loại</th>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProPrice)
+            </td>
+            <td>
+                <img src="@Url.Content(item.ProImage)" alt="@item.ProName" width="200px"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ViewSee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.material)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ship)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProWeight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CatName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit","RepairProduct", new {  id=item.ProId  }) |
+                @Html.ActionLink("Details", "DetailsProduct", new {  id=item.ProId }) |
+                @Html.ActionLink("Delete", "DeleteProduct", new {  id=item.ProId  })
+            </td>
+        </tr>
+    }
+
+</table>
+Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount;
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>

@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Đăng Nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h4 style="color:red; text-align:center">@ViewBag.Thongbao</h4>
+<table align="center">
+    <h3 style="text-align:center">Login</h3>
+    @using(Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+        <tr style="height:40px">
+            <td>UserName :</td>
+            <td>
+                @Html.TextBox("UserAccount")
+                @ViewData["Loi1"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td align="right">Password :</td>
+            <td>
+                @Html.TextBox("Password")
+                @ViewData["Loi2"]
+            </td>
+        </tr>
+        <tr style="height:40px">
+            <td></td>
+            <td>
+                <input type="submit" value="Đăng nhập" />
+            </td>
+        </tr>
+            }
+</table>
+

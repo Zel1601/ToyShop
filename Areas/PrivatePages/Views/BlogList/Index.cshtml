@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ToyShop.Models.Blog>
+@helper Truncate(string input, int lenght)
+    {
+    if(input.Length < lenght)
+    {
+        @input
+    }    
+    else
+    {
+        @input.Substring(0, lenght)<text>...</text>
+    }    
+    }
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/PrivatePages/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create","BlogList")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogDes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogImages)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogImagesDes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BlogDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdminId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BlogName)
+        </td>
+        <td>
+            @Truncate(item.BlogDes, 50)
+        </td>
+        <td>
+            <img src="@Url.Content(item.BlogImages)" alt="@item.BlogName" width="200px" />
+        </td>
+        <td>
+            <img src="@Url.Content(item.BlogImagesDes)" alt="@item.BlogName" width="200px" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BlogDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AdminId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BlogId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BlogId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BlogId })
+        </td>
+    </tr>
+}
+
+</table>

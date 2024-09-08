@@ -1,0 +1,7 @@
+﻿@model IEnumerable<ToyShop.Models.Category>
+@foreach (var item in Model)
+{
+
+    <a href="@Url.Action("SPTheoCategory", "Home", new { id = item.Id })">@item.CatName</a>
+
+}

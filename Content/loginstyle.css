@@ -1,0 +1,60 @@
+.login {
+    background-color:azure;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login h1 .logo {
+    color:black;
+    font-weight: bolder;
+    font-style: italic;
+    list-style: none;
+    text-decoration: none;
+    font-size: 70px;
+}
+.login .logo img {
+    width:60px;
+    height:60px;
+    margin-right: 5px;
+    margin-bottom:-2px;
+}
+.login .center{
+    color:red;
+    text-align: center;
+    font-size:40px;
+    margin-top:-25px;
+}
+.login form {
+    border: 3px solid black;
+    padding: 30px;
+    text-align: center;
+    margin-left:400px;
+    margin-right:400px;
+}
+.login form input {
+    width:500px;
+    height:30px;
+    margin-left:50px;
+    font-size:15px;
+}
+.login form button{
+    width:300px;
+    height:30px;
+    background-color: black;
+    color:white;
+    font-size:15px;
+}
+.login form button:hover{
+    background-color:red;
+}
+.form-control{
+    margin-bottom:15px;
+}
+.login p {
+    font-size: 20px;
+}
+.login p a {
+    text-decoration: none;
+    color:red;
+}
+
+

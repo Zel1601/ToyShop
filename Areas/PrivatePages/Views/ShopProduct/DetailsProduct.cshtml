@@ -1,0 +1,99 @@
+﻿@model ToyShop.Models.Product
+
+@{
+    ViewBag.Title = "DetailsProduct";
+    Layout = "~/Areas/PrivatePages/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DetailsProduct</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProImage)
+        </dt>
+
+        <dd>
+            <img src="@Url.Content(Model.ProImage)" alt="Alternate Text"  width="300px"/>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Discount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Discount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ViewSee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ViewSee)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.material)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.material)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ship)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ship)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProWeight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProWeight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CatId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CatName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
